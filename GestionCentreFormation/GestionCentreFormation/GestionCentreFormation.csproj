@@ -55,14 +55,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Authentification.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionAbonnemet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionAbonnemet.Designer.cs">
+      <DependentUpon>GestionAbonnemet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionLocation.Designer.cs">
+      <DependentUpon>GestionLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionPacks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionPacks.Designer.cs">
+      <DependentUpon>GestionPacks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionsAbonnées.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionsAbonnées.Designer.cs">
+      <DependentUpon>GestionsAbonnées.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionSalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionSalles.Designer.cs">
+      <DependentUpon>GestionSalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionUtilsateurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionUtilsateurs.Designer.cs">
+      <DependentUpon>GestionUtilsateurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipale.Designer.cs">
+      <DependentUpon>MenuPrincipale.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,6 +116,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -85,6 +131,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\271879444_457215122740982_1060368412569901059_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1224701787-1024x1024.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

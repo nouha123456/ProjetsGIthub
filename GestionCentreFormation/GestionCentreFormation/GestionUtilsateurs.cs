@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace GestionCentreFormation
 {
-    public partial class Form1 : MetroForm
+    public partial class GestionUtilsateurs : MetroForm
     {
-        public Form1()
+        public GestionUtilsateurs()
         {
             InitializeComponent();
         }
